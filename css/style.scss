@@ -1,0 +1,36 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    section.content-wrapper {
+        width: 352px;
+        height: 736px;
+        background-image: url("../images/phone-template-1.svg") ;
+        background-repeat: no-repeat;   
+            section {
+                width: 352px;
+                height: 736px;
+                position: absolute;
+                z-index: -1;
+        }
+            section#landing {
+                background: red;
+            }
+            section#page1 {
+                background: green;
+                display: none;
+            }
+            section#page2 {
+                background: blue;
+                display: none;
+            }
+    }
+}

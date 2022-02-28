@@ -1,1 +1,49 @@
-/* No CSS *//*# sourceMappingURL=style.css.map */
+* {
+  padding: 0;
+  margin: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.container {
+  width: 100vw;
+  height: 100vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.container section.content-wrapper {
+  width: 352px;
+  height: 736px;
+  background-image: url("../images/phone-template-1.svg");
+  background-repeat: no-repeat;
+}
+
+.container section.content-wrapper section {
+  width: 352px;
+  height: 736px;
+  position: absolute;
+  z-index: -1;
+}
+
+.container section.content-wrapper section#landing {
+  background: red;
+}
+
+.container section.content-wrapper section#page1 {
+  background: green;
+  display: none;
+}
+
+.container section.content-wrapper section#page2 {
+  background: blue;
+  display: none;
+}
+/*# sourceMappingURL=style.css.map */

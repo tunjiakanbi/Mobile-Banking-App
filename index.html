@@ -1,21 +1,43 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="css/style.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/style.css" />
     <title>Mobile Banking App</title>
-</head>
-<body>
+  </head>
+  <body>
     <div class="container">
-        <section class="content-wrapper">
-            <section id="landing"></section>
-            <section id="page1"></section>
-            <section id="page2"></section>
+        <div id="template"></div>
+      <section class="content-wrapper">
+        <section id="landing"></section>
+        <section id="page1">
+          <div id="content">
+            <div id="top-section">
+              <p>Good morning,</p>
+              <p>Mathew</p>
+              <h4>Customer since 2012</h4>
+            </div>
+            <div id="checking">
+              <h3>Checking...1329</h3>
+              <p>$2,694.88</p>
+              <p>Available Balance</p>
+            </div>
+            <div id="savings">
+              <h3>Savings...4722</h3>
+              <p>$4,699.00</p>
+              <p>Available Balance</p>
+            </div>
+            <div id="account">
+              <button>Open an account</button>
+            </div>
+          </div>
         </section>
+        <section id="page2"></section>
+      </section>
     </div>
 
     <script src="js/app.js"></script>
-</body>
+  </body>
 </html>

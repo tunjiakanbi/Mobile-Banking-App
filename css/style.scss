@@ -46,6 +46,7 @@
   }
   section#page1 {
     background: rgb(224, 223, 223);
+    display:none;
     div#content {
       position: relative;
       height: 170px;
@@ -176,7 +177,18 @@
     }
   }
   section#page2 {
-    background: blue;
-    display: none;
+    // background: blue;
+    // display: none;
+    background: rgb(224, 223, 223);
+    div#content {
+      position: relative;
+      height: 170px;
+      top: -32px;
+      background-image: linear-gradient(
+        180deg,
+        rgb(165, 163, 203),
+        rgb(201, 200, 214)
+      );
+    }
   }
 }

@@ -53,6 +53,7 @@
 
 .container section#page1 {
   background: #e0dfdf;
+  display: none;
 }
 
 .container section#page1 div#content {
@@ -221,7 +222,14 @@
 }
 
 .container section#page2 {
-  background: blue;
-  display: none;
+  background: #e0dfdf;
+}
+
+.container section#page2 div#content {
+  position: relative;
+  height: 170px;
+  top: -32px;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#a5a3cb), to(#c9c8d6));
+  background-image: linear-gradient(180deg, #a5a3cb, #c9c8d6);
 }
 /*# sourceMappingURL=style.css.map */

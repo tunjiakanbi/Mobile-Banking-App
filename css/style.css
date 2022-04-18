@@ -53,7 +53,6 @@
 
 .container section#page1 {
   background: #e0dfdf;
-  display: none;
 }
 
 .container section#page1 div#content {
@@ -222,6 +221,7 @@
 }
 
 .container section#page2 {
+  display: none;
   background: #e0dfdf;
 }
 

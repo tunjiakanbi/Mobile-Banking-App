@@ -46,7 +46,7 @@
   }
   section#page1 {
     background: rgb(224, 223, 223);
-    display:none;
+    // display:none;
     div#content {
       position: relative;
       height: 170px;
@@ -178,7 +178,7 @@
   }
   section#page2 {
     // background: blue;
-    // display: none;
+    display: none;
     background: rgb(224, 223, 223);
     div#content {
       position: relative;
